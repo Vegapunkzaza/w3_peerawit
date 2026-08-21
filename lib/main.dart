@@ -17,13 +17,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // MaterialApp คือ Widget ที่ครอบแอปทั้งหมด กำหนดธีม, ชื่อแอป, และหน้าแรกที่จะแสดง
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
         // สร้างชุดสีของธีมทั้งหมดโดยอัตโนมัติจากสีหลัก (seedColor)
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       // หน้าแรกที่จะแสดงเมื่อเปิดแอป
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Student'),
     );
   }
 }
