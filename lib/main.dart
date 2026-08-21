@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       // หน้าแรกที่จะแสดงเมื่อเปิดแอป
-      home: const MyHomePage(title: 'Student'),
+      home: const MyHomePage(title: ' List Student'),
     );
   }
 }

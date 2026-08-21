@@ -12,7 +12,7 @@ class ApiService {
       final List<dynamic> jsonDate = jsonDecode(response.body);
       return jsonDate.map((json) => Model.fromJson(json)).toList();
     } else {
-      throw Exception("ไม่สามารถโหลกข้อมูลได้");
+      throw Exception("ไม่สามารถโหลดข้อมูลได้");
     }
   }
 }
